@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.04vw;
+  @media screen and (max-width: 768px) {
+    font-size: 3.25vw;
+  }
+}
+
+

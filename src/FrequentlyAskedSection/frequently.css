@@ -1,0 +1,119 @@
+.faq-mainContainer {
+  background-color: #00161d;
+  display: flex;
+  padding: 10rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.faq-mainContainer h1 {
+  font-size: 2.5rem;
+}
+
+.faq-container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #00161d;
+  color: #fff;
+  padding: 1.2rem;
+  border-radius: 0.7rem;
+}
+
+.faq-item {
+  border-bottom: unset;
+  padding: 0.7rem 0;
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.faq-question span {
+  margin-right: 0.7rem;
+  font-size: 2rem;
+  color: #b0f9ff;
+  opacity: 0.4;
+}
+
+.faq-answer {
+  margin-top: 0.2rem;
+  color: wheat;
+  font-size: 1rem;
+  color: #ccc;
+  margin-left: 1.5rem;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.dApp-container{
+    background-color: #00161d;
+   display: flex;
+text-align: center;
+   justify-content: center;
+
+}
+
+.dApp-container__inner{
+    width: 63%;
+    border: 2px solid #097b8a;
+    box-shadow: 0px 0px 32px 16px #63F2FF1A inset;
+border-radius: 1rem;
+padding: 3.5rem 7.9rem;
+margin-bottom: 6rem;
+
+}
+
+.dApp-container button{
+    box-shadow: 0px 0px 1px 1px rgba(76, 221, 253, 1) inset,
+    0px 1px 1px 0px rgba(76, 220, 252, 1) inset,
+    0px 0px 4px 2px rgba(255, 255, 255, 0.12) inset,
+    0px -8px 16px -4px rgba(55, 197, 229, 0.6) inset,
+    0px 6px 20px 0px rgba(55, 197, 229, 0.12),
+    0px 4px 12px 0px rgba(55, 197, 229, 0.12),
+    0px 4px 6px 0px rgba(55, 197, 229, 0.12),
+    0px 1px 4px 0px rgba(55, 197, 229, 0.12);
+
+  background-color: #b0f9ff;
+  padding: 0.5rem 0.65rem;
+  border-radius: 0.7rem;
+  color: #0b2a2d;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .faq-mainContainer {
+    gap: 0;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .faq-container {
+    width: unset;
+  }
+  .faq-mainContainer h1 {
+    padding-left: 2rem;
+  }
+  
+.faq-question {
+ padding-bottom: 1.25rem;
+  }
+  .faq-answer {
+    margin-top: 0;
+   
+  }
+  .dApp-container__inner{
+    width: 85%;
+padding: 2rem 2rem;
+margin-top: 5.5rem;
+}
+  .dappClass{
+font-size: revert;
+  }
+  
+}

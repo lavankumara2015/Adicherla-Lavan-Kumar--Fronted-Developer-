@@ -1,0 +1,315 @@
+.MarketInsight {
+  background-color: #00161d;
+  height: auto;
+  padding: 6rem;
+}
+.codeIcon {
+  width: 6rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.imageDiv img {
+  width: 23.85rem;
+  border-radius: 1rem;
+  opacity: 0;
+  transform: translateX(-10rem);
+  transition: opacity 2s ease, transform 2s ease; /* Smooth transition for opacity and position */
+}
+
+.animatePosition .imageDiv img {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.Rectangle8 {
+  width: 4rem;
+  position: absolute;
+  top: 55.35rem;
+  left: 14.15rem;
+}
+
+.Rectangle5 {
+  width: 7.25rem;
+  position: absolute;
+  top: 53.75rem;
+  left: 12.55rem;
+  transform: scale(0.2);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.Rectangle4 {
+  width: 6.75rem;
+  position: absolute;
+  top: 54rem;
+  left: 12.85rem;
+  transform: scale(0.2);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.animatePosition .Rectangle5,
+.animatePosition .Rectangle4 {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.angleBre {
+  position: absolute;
+  top: 56.7rem;
+  left: 14.55rem;
+  display: flex;
+  gap: 0.65rem;
+}
+
+.angleLeft {
+  width: 1.25rem;
+  transform: translateX(-2.5rem);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.angleRight {
+  width: 1.25rem;
+  transform: translateX(2.5rem);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.animatePosition .angleLeft {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.animatePosition .angleRight {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.MarketInsight__main-container {
+  display: grid;
+  grid-template-columns: 17vw 10vw 36vw 17vw;
+  grid-template-rows: 15vw 15vw 10vw;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+.MarketInsight p {
+  position: relative;
+  bottom: 3rem;
+}
+.MarketInsight h1 {
+  font-size: 1.5rem;
+}
+
+.MarketInsight__1st {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5rem !important;
+  gap: 1rem;
+  border: 0.15rem solid #0c2b2fb2;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  background-color: #08252a !important;
+}
+
+.MarketInsight__2nd {
+  grid-column: 2/4;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.15rem solid #0c2b2fb2;
+  border-radius: 1rem;
+  background-color: #08252a !important;
+}
+.MarketInsight__3rd {
+  grid-row: 1/3;
+  grid-column: 4/5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 0.15rem solid #0c2b2fb2;
+  padding: 1.25rem;
+  border-top-left-radius: unset !important ;
+  border-top-right-radius: 5rem !important;
+  border-radius: 1rem;
+  background-color: #08252a !important;
+}
+
+.codeIcon2 {
+  width: 10rem;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.imageIcon3 {
+  width: 35rem;
+  height: auto;
+  padding-top: 4rem;
+  border-bottom-right-radius: 1rem;
+  overflow: hidden;
+  opacity: 0.5;
+  transform: translate(2rem, 2rem);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.animatePosition .imageIcon3 {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.MarketInsight__4th {
+  grid-row: 2/3;
+  grid-column: 2/4;
+  border: 0.15rem solid #0c2b2fb2;
+  border-radius: 1rem;
+  box-shadow: 0px 1px 25px 0px #1dcef240 inset;
+  background-color: #08252a !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.MarketInsight__4th h1 {
+  transform: translateY(5rem);
+  opacity: 0.1;
+  transition: all 2s ease;
+}
+
+.animatePosition h1 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.MarketInsight__5th {
+  grid-column: 1/3;
+  background-color: #1d3336;
+  padding-left: 2rem;
+  padding: 1.25rem 0 0 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.15rem solid #0c2b2fb2;
+  height: 13rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: #08252a !important;
+}
+.MarketInsight__6th {
+  grid-column: 3/5;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.15rem solid #0c2b2fb2;
+  height: 13rem;
+  border-radius: 1rem;
+  padding: 1.25rem 0 0 2rem;
+  background-color: #08252a !important;
+}
+
+.imageIcon4 {
+  width: 32rem;
+  height: auto;
+  padding-top: 1rem;
+  opacity: 0;
+  transform: translateY(-2rem) rotate(45deg);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.animatePosition .imageIcon4 {
+  opacity: 1;
+  transform: translateY(0) rotate(0deg);
+}
+
+.riskGuardAI {
+  position: absolute;
+  width: 2.5rem;
+  top: 54.75rem;
+  right: 15.5rem;
+  opacity: 0;
+  transform: translateX(4rem);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.animatePosition .riskGuardAI {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+  .MarketInsight__main-container {
+    display: unset;
+  }
+  .MarketInsight__1st,
+  .MarketInsight__2nd,
+  .MarketInsight__3rd,
+  .MarketInsight__5th,
+  .MarketInsight__6th {
+    width: 28rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .MarketInsight__4th {
+    display: none;
+  }
+  .MarketInsight {
+    padding: 1.5rem;
+  }
+  .MarketInsight__1st,
+  .MarketInsight__3rd {
+    border-radius: 1rem !important;
+  }
+  .Rectangle8 {
+    top: 56.3rem;
+    left: 13.55rem;
+  }
+  .Rectangle5 {
+    top: 54.65rem;
+    left: 11.85rem;
+  }
+  .Rectangle4 {
+    top: 54.925rem;
+    left: 12.12rem;
+  }
+  .angleBre {
+    top: 57.55rem;
+    left: 13.95rem;
+  }
+  .imageDiv img {
+    width: 10rem;
+    position: relative;
+    left: 2.55rem;
+    bottom: 1.66rem;
+  }
+  .imageDiv {
+    height: 9.4rem;
+  }
+  .MarketInsight__2nd p {
+    display: none;
+  }
+  .riskGuardAI {
+    top: 96.55rem;
+    right: 15.4rem;
+  }
+  .imageIcon3 {
+    width: 40rem;
+    margin-left: 1.55rem;
+  }
+  .portfolioH1{
+    margin-top: 3.85rem;
+  }
+  .imageIcon4 {
+    width: 50rem;
+    margin-left: 1.5rem;
+    margin-top: 4.75rem;
+     }
+  
+}

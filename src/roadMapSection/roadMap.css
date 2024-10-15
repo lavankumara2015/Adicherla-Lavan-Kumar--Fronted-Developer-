@@ -1,0 +1,71 @@
+.roadMapSection {
+  background-color: #00161d;
+}
+.roadMapSection button {
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.roadMapSection__1 {
+  padding-left: 5rem;
+  
+}
+.roadMapSection__1 div {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.roadMapSection__1 img {
+  width: 2.25rem;
+}
+.roadMapSection__1 p {
+  color: white;
+  font-size: 1.5rem;
+}
+.roadMapSection__1st {
+  display: flex;
+  justify-content: space-between;
+}
+.KichingOFF-video {
+  width: 42rem;
+  opacity: 0.4;
+}
+h1{
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .roadMapSection button {
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .roadMapSection__1 {
+    padding-left: 2rem;
+  }
+
+  .roadMapSection__1 img {
+    width: 1.6rem;
+  }
+  .roadMapSection__1 p {
+    font-size: 1.1rem;
+  }
+  .roadMapSection__1st {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .KichingOFF-video {
+    width: auto;
+    opacity: 0.4;
+    margin-top: 2rem;
+  }
+  .roadMapFlex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

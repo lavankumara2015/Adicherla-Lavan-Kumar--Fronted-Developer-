@@ -1,0 +1,111 @@
+.aboutEth-container {
+  background-color: #00161d;
+}
+
+.aboutEth-container button {
+  box-shadow: 0px 0px 1px 1px rgba(76, 221, 253, 1) inset,
+    0px 1px 1px 0px rgba(76, 220, 252, 1) inset,
+    0px 0px 4px 2px rgba(255, 255, 255, 0.12) inset,
+    0px -8px 16px -4px rgba(55, 197, 229, 0.6) inset,
+    0px 6px 20px 0px rgba(55, 197, 229, 0.12),
+    0px 4px 12px 0px rgba(55, 197, 229, 0.12),
+    0px 4px 6px 0px rgba(55, 197, 229, 0.12),
+    0px 1px 4px 0px rgba(55, 197, 229, 0.12);
+
+  background-color: #b0f9ff;
+  padding: 0.5rem 0.65rem;
+  border-radius: 0.7rem;
+  color: #0b2a2d;
+  font-weight: 600;
+}
+.aboutEth-innerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.8rem;
+}
+
+.aboutEth-innerContainer__video {
+  width: 40rem;
+  height: 21rem;
+  margin-top: 0.5rem;
+  transform: rotateY(180deg);
+  position: relative;
+  left: 7rem;
+}
+
+.aboutEth-innerContainer__video2 {
+  width: 40rem;
+  height: 21rem;
+  margin-top: 0.5rem;
+  transform: rotateY(0deg);
+  position: relative;
+  right: 7rem;
+  backdrop-filter: 1rem;
+}
+.aboutEth-innerContainer__video-Container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.aboutEth-innerContainer__content {
+  width: 65%;
+  height: 22rem;
+  background-color: #08252a;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  padding: 3rem;
+  position: relative;
+  z-index: 5555;
+}
+
+.aboutEth-innerContainer__content p {
+  width: 17rem;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+.aboutEth-innerContainer__content img {
+  width: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+.aboutEth-innerContainer__content h1 {
+  font-size: 1rem !important;
+  margin-bottom: 0.2rem;
+}
+@media screen and (max-width: 768px) {
+  .aboutEth-container {
+    height: auto;
+  }
+
+  .aboutEth-innerContainer__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: auto;
+    margin-left: 10%;
+  }
+  .ethAiClass{
+    padding: 0rem 3rem;
+  }
+  .aboutEth-innerContainer__video2,
+  .aboutEth-innerContainer__video {
+    display: none;
+  }
+
+  .aboutEth-innerContainer__content p {
+    width: 20rem;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    font-weight: 100;
+
+  }
+  .aboutEth-innerContainer__content img {
+    width: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  .aboutEth-innerContainer__content h1 {
+    margin-bottom: 0.2rem;
+    font-size: 1.5rem;
+  }
+}

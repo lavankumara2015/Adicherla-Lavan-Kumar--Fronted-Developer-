@@ -1,0 +1,83 @@
+footer {
+  background-color: #010f14;
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+}
+.footer-innerContainer {
+  padding: 3rem 3rem;
+}
+.footer-EthAi-icon img {
+  width: 20rem;
+  padding-bottom: 2rem;
+}
+.footer-innerContainer2 {
+  padding-top: 5rem;
+}
+.footer-innerContainer2 input {
+  padding: 0.9rem 15rem 0.9rem 0.9rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  border: 2px solid #656d6d;
+  color: white;
+}
+.footer-innerContainer2 button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 40px 0px #8bf9e833 inset;
+  backdrop-filter: blur(7.5px);
+  position: relative;
+  right: 8.6rem;
+  border: 0.1rem solid #8bf9e833;
+}
+.footer-innerContainer2 button:hover {
+  color: black;
+  background-color: #b0f9ff;
+  transition: background-color 2s ease-in-out;
+}
+.footer-social_media-container {
+  width: 3rem;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+.footer__hr {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-innerContainer2 {
+    padding-top: unset;
+    display: none;
+  }
+  footer {
+    height: 42vh;
+    flex-direction: column;
+    padding: 5.5rem;
+  }
+  .footer-innerContainer {
+    content: attr(hr);
+    padding: unset;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-EthAi-icon img {
+    width: 26rem;
+    padding-left: 5.5rem;
+    padding-bottom: unset;
+  }
+  .footer-social_media-container {
+    width: 3.25rem;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  .footer__hr {
+    display: block;
+    border-radius: 100%;
+    opacity: 0.2;
+    position: relative;
+    bottom: 2rem;
+    margin-top: 2.5rem;
+  }
+}

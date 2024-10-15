@@ -1,0 +1,55 @@
+.TokenGraph-mainContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00161d;
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  opacity: 0.25;
+}
+
+h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.frameFront {
+  position: relative;
+  z-index: 1;
+  width: 85%;
+  height: auto;
+}
+.frameFront2 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .frameFront {
+    display: none;
+  }
+  .frameFront2 {
+    display: block;
+  }
+  .TokenGraph-mainContainer {
+    height: 130vh;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+}
