@@ -6,7 +6,7 @@ function TokenGrap() {
     <div className='TokenGraph-mainContainer'>
       <video
         className='backgroundVideo'
-        src="./assets/-b73b-41ed-85be-06b5992f5f11.mov"
+        src="./assets/-b73b-41ed-85be-06b5992f5f11.mp4"
         autoPlay
         loop
         muted
