@@ -17,14 +17,11 @@ export default function HeroSection() {
   return (
     <nav className="relative w-full h-screen ">
       <video
-  className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-  autoPlay
-  muted
-  loop
->
-  <source src="./assets/-c85c-4755-a1c0-4646ee276bd5.mp4" type="video/mp4" />
-  </video>
-
+        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+        src="./assets/-c85c-4755-a1c0-4646ee276bd5.mp4"
+        autoPlay
+        muted
+      />
 
       <Disclosure as="nav" >
         {({ open }) => (
