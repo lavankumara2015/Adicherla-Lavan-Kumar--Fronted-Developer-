@@ -22,7 +22,7 @@ export default function HeroSection() {
   muted
   loop
 >
-  <source src="./assets/WhatsApp Video 2024-10-15 at 4.05.38 PM.mp4" type="video/mp4" />
+  <source src="./assets/-c85c-4755-a1c0-4646ee276bd5.mp4" type="video/mp4" />
 </video>
 
 
